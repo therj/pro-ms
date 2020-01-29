@@ -1,5 +1,5 @@
-# mrm-pro
+# Pro MS
 
-## Meeting Room Manager
+## Management System for the Pros!
 
 Node, React, WebExt. Nx
