@@ -1,0 +1,28 @@
+{
+  "npmScope": "pro-ms",
+  "implicitDependencies": {
+    "workspace.json": "*",
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "ms": {
+      "tags": []
+    },
+    "ms-e2e": {
+      "tags": [],
+      "implicitDependencies": ["ms"]
+    },
+    "api": {
+      "tags": []
+    },
+    "api-interfaces": {
+      "tags": []
+    }
+  }
+}
